@@ -3,12 +3,6 @@ body {
     font-size: 1.75vw;
 }
 
-.logoCol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .logo {
     width: 90%;
     height: 80%;
@@ -21,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 6%;
 }
 
 .slogan1 {
@@ -29,6 +24,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 4vw;
+    margin-bottom: 0px;
 }
 
 .slogan2 {
@@ -71,10 +67,14 @@ body {
     margin-bottom: 0px;
 }
 
+.price {
+    font-size: 2vw;
+}
+
 .addItemButtonCol {
     display: flex;
     justify-content: flex-end;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .addItemButton {
